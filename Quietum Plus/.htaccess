@@ -1,9 +1,0 @@
-Options All -Indexes
-
-DirectoryIndex index.php index.htm index.html
-
-RewriteEngine On
-RewriteCond %{HTTP_HOST} !^usa-quietumplus-usa.us$
-RewriteRule ^(.*)$ https://usa-quietumplus-usa.us/$1 [R=301,L]
-
-ErrorDocument 404 https://usa-quietumplus-usa.us
